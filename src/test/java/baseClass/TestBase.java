@@ -25,7 +25,7 @@ public class TestBase {
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 	}
 
-	//@AfterClass
+	@AfterClass
 	public static void tearDown() {
 		driver.quit();
 	}
