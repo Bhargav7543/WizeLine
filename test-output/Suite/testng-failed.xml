@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="tests.WizeLine_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+          <include name="demoTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- tests.WizeLine_Test -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
